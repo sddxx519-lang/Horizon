@@ -1,9 +1,9 @@
 name: Daily Horizon Summary
 
 on:
-  # schedule:
-  #   - cron: '0 0 * * *'  # 每天北京时间早上8点
-    workflow_dispatch:
+  schedule:
+      - cron: '0 0 * * *'  # 每天北京时间早上8点
+  workflow_dispatch:
 
 jobs:
   daily-summary:
