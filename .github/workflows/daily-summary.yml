@@ -1,11 +1,11 @@
 name: Daily Horizon Summary
 
-  on:
+on:
     schedule:
       - cron: '0 0 * * *'
     workflow_dispatch:
 
-  jobs:
+jobs:
     daily-summary:
       runs-on: ubuntu-latest
       permissions:
